@@ -1,0 +1,12 @@
+.markdown-content {
+  line-height: 1.6;
+}
+
+.markdown-content p {
+  margin-bottom: 1rem;
+  white-space: pre-wrap;
+}
+
+.markdown-content :last-child {
+  margin-bottom: 0;
+}

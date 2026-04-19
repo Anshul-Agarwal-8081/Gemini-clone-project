@@ -1,0 +1,44 @@
+.sidebar-container {
+  width: 260px;
+  height: 100%;
+  background-color: var(--bg-sidebar);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  transition: width 0.3s ease;
+}
+
+.new-chat-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  background-color: var(--bg-hover);
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.new-chat-btn:hover {
+  background-color: rgba(40, 42, 44, 0.8);
+}
+
+.plus-icon {
+  font-size: 1.25rem;
+}
+
+.sidebar-history {
+  flex: 1;
+  margin-top: 2rem;
+}
+
+.history-label {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0 0.5rem;
+}
+
+/* Add more history item styles here */
